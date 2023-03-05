@@ -1,0 +1,24 @@
+  /* Nosotros*/
+
+  .fondo {
+    height: 75vh;
+    min-height: 320px;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.home{
+   display: flex;
+}
+.textos {
+    padding: 25px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+  }
+.textos div {
+  padding: 25px;
+  margin: 20px;
+}
