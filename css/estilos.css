@@ -188,9 +188,10 @@ body {
 
   .fondo {
     height: 75vh;
-    min-height: 700px;
+    min-height: 320px;
     background-size: 100%;
     position: relative;
+    background-repeat: no-repeat;
 }
 .home{
    display: flex;
@@ -209,9 +210,31 @@ body {
 }
 
 /*MARCAS*/
-
-
+.baner {
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.marcas {
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+}
 /*Medias querys*/
+@media screen and (max-width:900px){
+  .fondo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+}
+
  @media screen and (max-width: 600px){
   .texto {
     display: flex;
