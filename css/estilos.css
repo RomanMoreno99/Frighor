@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /* HEADER */
 
 body{
@@ -171,6 +175,7 @@ body {
   }
 
   h1 {
+    color: #fff;
     width: 100%;
     height: 50%;
     display: flex;
@@ -182,46 +187,36 @@ body {
   /* Nosotros*/
 
   .fondo {
-    width: 100%;
+    height: 75vh;
     min-height: 700px;
     background-size: 100%;
-    background-repeat: no-repeat;
     position: relative;
-    opacity: 90%;
 }
-  .nosotros {
-    width: 1200px;
-    top: 100px;
+.home{
+   display: flex;
+}
+.textos {
+    padding: 25px;
+    width: 1000px;
     margin: 0 auto;
     text-align: center;
     position: relative;
-    color: #FFF;
+    display: flex;
+  }
+.textos div {
+  padding: 25px;
+  margin: 20px;
 }
-.nosotros .txtpr {
-  font-family: 'LatoBold', sans-serif !important;
-  font-size: 48px;
-  line-height: 48px;
-  margin: 0 10px;
-  padding: 10px 0;
-  text-align: center;
-}
-.txtnos {
-  width: auto;
-  display: flex;
-  margin: auto;
-  text-align: justify;
-  text-align-last: center;
-}
-.nosotros .txtnos {
-  font-family: 'LatoRegular', sans-serif !important;
-  font-size: 18px;
-  line-height: 22px;
-  margin: 0 10px;
-  padding: 10px 0;
-}
+
+/*MARCAS*/
+
+
+/*Medias querys*/
  @media screen and (max-width: 600px){
-  .nosotros {
-    color: #fff;
+  .texto {
+    display: flex;
+    text-align: center;
+    width: 100%
   }
  }
   @media screen and (max-width: 600px) {
