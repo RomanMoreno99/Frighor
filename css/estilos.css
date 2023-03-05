@@ -165,15 +165,6 @@ body {
     box-shadow: 10px 10px 40px -14px #000;
     display: flex;
    } 
-   @media screen and (max-width: 600px){
-   .contacto {
-    display: flex;
-    align-items: center;
-    width: 270px;
-    padding: 15px 4px 16px 0;
-
-   }
-}
 
   span {
     margin: 0 5px 0 10px;
@@ -186,4 +177,55 @@ body {
     text-align: center;
     justify-content: center;
     
+  }
+
+  /* Nosotros*/
+
+  .fondo {
+    width: 100%;
+    min-height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 90%;
+}
+  .nosotros {
+    width: 1200px;
+    top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    color: #FFF;
+}
+.nosotros .txtpr {
+  font-family: 'LatoBold', sans-serif !important;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 10px;
+  padding: 10px 0;
+  text-align: center;
+}
+.txtnos {
+  width: auto;
+  display: flex;
+  margin: auto;
+  text-align: justify;
+  text-align-last: center;
+}
+.nosotros .txtnos {
+  font-family: 'LatoRegular', sans-serif !important;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+  @media screen and (max-width: 600px) {
+    .contacto {
+     display: flex;
+     align-items: center;
+     width: 270px;
+     padding: 15px 4px 16px 0;
+ 
+    }
   }
