@@ -162,11 +162,11 @@ button:hover {
   border-radius: 6px;
   font-size: 14px;
   box-shadow: 10px 10px 40px -14px #000;
-  display: flex;
+  text-align: center;
 }
 
 span {
-  margin: 0 5px 0 10px;
+  margin: 15px 5px 0 10px;
 }
 
 h1 {
@@ -191,15 +191,6 @@ h1 {
   display: flex;
 }
 
-.textos {
-  padding: 25px;
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  display: flex;
-}
-
 .textos div {
   padding: 25px;
   margin: 20px;
@@ -216,9 +207,8 @@ h1 {
 }
 
 .marcas {
-  padding: 4rem;
+  padding: 0;
   width: 100%;
-  display: flex;
   text-align: center;
   justify-items: center;
   margin: auto;
@@ -243,9 +233,102 @@ h1 {
   .contacto {
     display: flex;
     align-items: center;
-    width: 270px;
+    width: 100%;
     padding: 15px 4px 16px 0;
   }
+  .form {
+    height: auto;
+  }
+}
+.politicas {
+  margin: 0;
+  padding: 0;
+  background-color: #c3c8dd;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titi {
+  height: 20%;
+}
+
+.subt {
+  text-align: center;
+}
+
+.term-caja {
+  margin: 27px;
+  max-width: 600px;
+  background-color: #111;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 60px 30px;
+}
+
+.term-caja h2 {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 25px;
+  border-bottom: 0;
+  width: auto;
+}
+
+.term-caja h2 span {
+  color: #d13639;
+}
+
+.term-txt {
+  padding: 0 20px;
+  height: 400px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+
+.term-txt::-webkit-scrollbar {
+  width: 2px;
+  background-color: #282828;
+}
+
+.term-txt::-webkit-scrollbar-thumb {
+  background-color: #c3c8dd;
+}
+
+.botn-term {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.botn {
+  height: 50px;
+  width: calc(50% - 6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.3s linear;
+}
+
+.red-botn {
+  background-color: #d13639;
+}
+
+.gray-botn {
+  background-color: #282828;
+}
+
+.textos {
+  padding: 25px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  display: flex;
 }
 
 /*# sourceMappingURL=estilos.css.map */

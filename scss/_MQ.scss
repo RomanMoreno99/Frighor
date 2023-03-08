@@ -18,8 +18,10 @@
       .contacto {
        display: flex;
        align-items: center;
-       width: 270px;
+       width: 100%;
        padding: 15px 4px 16px 0;
-   
+      }
+      .form {
+        height: auto;
       }
     }

@@ -1,0 +1,14 @@
+
+@mixin textos {
+    padding: 25px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+
+.textos {
+    @include textos()
+}
