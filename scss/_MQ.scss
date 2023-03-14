@@ -1,27 +1,28 @@
 /*Medias querys*/
-@media screen and (max-width:900px){
-    .fondo {
-      display: flex;
-      height: 100%;
-      width: 100%;
-    }
+@media screen and (max-width:900px) {
+  .fondo {
+    display: flex;
+    height: 100%;
+    width: 100%;
   }
-  
-@media screen and (max-width: 600px){
-    .texto {
-      display: flex;
-      text-align: center;
-      width: 100%
-    }
-   }
+}
+
 @media screen and (max-width: 600px) {
-      .contacto {
-       display: flex;
-       align-items: center;
-       width: 100%;
-       padding: 15px 4px 16px 0;
-      }
-      .form {
-        height: auto;
-      }
-    }
+  .texto {
+    display: flex;
+    text-align: center;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form {
+    height: auto;
+  }
+}

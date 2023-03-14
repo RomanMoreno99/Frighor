@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   background: #c3c8dd;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -165,8 +166,8 @@ button:hover {
   text-align: center;
 }
 
-span {
-  margin: 15px 5px 0 10px;
+.mail {
+  margin: 7px;
 }
 
 h1 {
@@ -214,32 +215,15 @@ h1 {
   margin: auto;
 }
 
-/*Medias querys*/
-@media screen and (max-width: 900px) {
-  .fondo {
-    display: flex;
-    height: 100%;
-    width: 100%;
-  }
+.textos {
+  padding: 25px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  display: flex;
 }
-@media screen and (max-width: 600px) {
-  .texto {
-    display: flex;
-    text-align: center;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .contacto {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 15px 4px 16px 0;
-  }
-  .form {
-    height: auto;
-  }
-}
+
 .politicas {
   margin: 0;
   padding: 0;
@@ -322,13 +306,30 @@ h1 {
   background-color: #282828;
 }
 
-.textos {
-  padding: 25px;
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  display: flex;
+/*Medias querys*/
+@media screen and (max-width: 900px) {
+  .fondo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .texto {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contacto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .form {
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
